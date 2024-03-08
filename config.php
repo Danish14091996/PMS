@@ -6,7 +6,7 @@ define('CURRENT_PAGE', basename($_SERVER['REQUEST_URI']));
 define('ROOT',dirname(__FILE__));
 
 const APP_NAME = 'PMS';
-const APP_URL= 'http://localhost/Talj';
+const APP_URL= 'http://localhost/pms';
 const ASSET_URL= APP_URL.'/assets/';
 
 const DB_HOST='localhost';
